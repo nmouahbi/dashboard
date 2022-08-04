@@ -1,1 +1,43 @@
-<p>sidebar works!</p>
+<mat-nav-list id="navlistcustom">
+    <div class="profile-card">
+        <div class="header">
+            <h2>Nabil</h2>
+            <h4>example@email.com</h4>
+        </div>
+        <img src="../assets/favicon.png" alt="profile">
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader id="quicklinks" >Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/"> <mat-icon>dashboard</mat-icon> Dashboard</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/education"> <mat-icon>perm_identity</mat-icon>Profile</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/experience"> <mat-icon>numbers</mat-icon>Stats</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/project"> <mat-icon>track_changes</mat-icon>Tracker</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/skills"> <mat-icon>dashboard</mat-icon>Learning</a>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader >Quick Links</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" href="https://dasi-team.atlassian.net/jira/projects?selectedProjectType=service_desk">
+        <mat-icon id="links">website</mat-icon>
+        Jira
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" href="https://dasi-team.atlassian.net/jira/projects?selectedProjectType=service_desk">
+        <mat-icon id="links">website</mat-icon>
+        Blueberry
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" href="https://dasi-team.atlassian.net/jira/projects?selectedProjectType=service_desk">
+        <mat-icon id="links">website</mat-icon>
+        Blueberry
+    </a>
+    <a mat-list-item routerLinkActive="list-item-active" href=" https://app.pluralsight.com/library/">
+        <mat-icon id="links">website</mat-icon>
+       PluralSight
+    </a>
+   
+</mat-nav-list>

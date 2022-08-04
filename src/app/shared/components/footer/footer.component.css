@@ -1,0 +1,20 @@
+div {
+  padding-left: 50%;
+  background :linear-gradient(to right, #0e0d63 00%, #8273da 80%);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+p{
+  padding-top: 50%;
+  padding-bottom: 1%;
+}
+#iconcopy {
+  padding-bottom: 1%;
+}
+footer {
+  background-color: #525194;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,0 +1,16 @@
+ul li {
+    list-style: none;
+  }
+  #logoheader{
+    width: 10%;
+    height: 20%;
+    border-radius: 10px;
+    position: relative;
+  }
+  #headercustom {
+    width: 100%;
+    height: 100%;
+    background : linear-gradient(to right, #0e0d63 20%, #8273da 80%);
+    position: relative;
+    color: white;
+  }

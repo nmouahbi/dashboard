@@ -10,13 +10,25 @@ import { MatCardModule } from '@angular/material/card';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatTableModule } from '@angular/material/table';
 import { FlexLayoutModule } from '@angular/flex-layout';
-// import { DashboardService } from 'src/app/modules/dashboard.service';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import { EducationComponent } from 'src/app/modules/education/education.component';
+import { ExperienceComponent } from 'src/app/modules/experience/experience.component';
+import { SkillsComponent } from 'src/app/modules/skills/skills.component';
+import { DashboardService } from 'src/app/modules/dashboard.service';
+import { ProjectsComponent } from 'src/app/modules/projects/projects.component';
+
 
 
 @NgModule({
   declarations: [
     DefaultComponent,
-    DashboardComponent
+    DashboardComponent,
+    EducationComponent,
+    ExperienceComponent,
+    SkillsComponent,
+    ProjectsComponent
   ],
   imports: [
     CommonModule,
@@ -27,7 +39,14 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     FlexLayoutModule,
     MatCardModule,
     MatPaginatorModule,
-    MatTableModule
+    MatTableModule,
+    MatSliderModule,
+    MatButtonModule,
+    MatIconModule
+
+  ],
+  providers: [
+    DashboardService
   ]
 })
 export class DefaultModule { }

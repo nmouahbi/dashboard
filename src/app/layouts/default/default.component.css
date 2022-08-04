@@ -1,0 +1,22 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+mat-drawer {
+  width: 350px;
+}
+
+mat-drawer-container {
+  height: 100%;
+}
+
+mat-drawer-content {
+  padding: 20px;
+}
+*{
+  box-shadow: inset 5px 5px 5px 5px #e4e3e9;
+  
+background: linear-gradient(to left, #0e0d63 00%, #8273da 80%);
+  
+}

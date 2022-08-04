@@ -1,0 +1,28 @@
+*{
+  color: rgb(233, 233, 240);
+  
+ 
+}
+* :hover{
+  color: rgb(241, 241, 247);
+  font-weight: bold;
+}
+    .mat-icon {
+      vertical-align: middle;
+      margin-right: 20px;
+    }
+    .profile-card {
+      text-align: center;
+      
+ 
+    }
+    #links {
+      padding: 10px;
+      text-align: center;
+      
+    }
+  #navlistcustom {
+    background: linear-gradient(to left, #0e0d63 00%, #8273da 80%);
+    height: 99%;
+    
+  }
